@@ -6,8 +6,8 @@ int main (){
    scanf (" %lf %lf %lf" , &a, &b, &c);
    d = (b*b) - (4*a*c);
    if (d>0){
-      root1 = (-b+sqrt (d)) / (2*a);
-      root2 = (-b-sqrt (d)) / (2*a);
+      root1 = (-b+sqrt(d)) / (2*a);
+      root2 = (-b-sqrt(d)) / (2*a);
       printf ("The real roots = %.2lf %.2lf" , root1, root2);
    }
    else if (d==0){
