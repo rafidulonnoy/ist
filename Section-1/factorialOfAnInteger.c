@@ -9,8 +9,8 @@ int main(){
     else{
         for(i=1;i<=number;i++)
             factorial*=i;
-    }
     printf("So factorial for %lld is: %lld",number,factorial);
+    }
 
     return 0;
 }

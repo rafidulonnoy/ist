@@ -6,9 +6,9 @@ int main(){
     printf("Enter the number: ");
     scanf("%d",&n);
     for(i=n;i>=0;i--){
-        printf("%d\n",i);
+        printf("%d ",i);
         sum+=i;
     }
-    printf("Sum of the digits: %d",sum);
+    printf("\nSum of the digits: %d",sum);
     return 0;
 }
