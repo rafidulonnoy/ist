@@ -1,11 +1,10 @@
 #include<iostream>
-using namespace std;
 int main(){
   int age;
-  cout<<"Enter age: ";
-  cin>>age;
+  std::cout<<"Enter age: ";
+  std::cin>>age;
   if(age>=18)
-    cout<<"Eligible"<<endl;
+    std::cout<<"Eligible"<<std::endl;
   else
-    cout<<"Not Eligible"<<endl;
+    std::cout<<"Not Eligible"<<std::endl;
 }
